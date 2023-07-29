@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="2player.css">
+    <title>Test</title>
+</head>
+<body>
+
+<div id="start">
+    <label for="mystery">mot à decouvrir</label>
+    <input type="text" id="mystery">
+    <button onclick="ajoutMystery()" class="button hvr-radial-out">valider</button>
+</div>
+
+    <div id="main">
+        <div id="goalDiv">
+    
+        </div>
+    
+        <div id="hintDiv">
+    
+        </div>
+    <div id="essai">
+        <!-- <label for="guess">Votre guess ?</label> -->
+        <input type="text" id="guess" >
+        <button onclick="ajoutGuess()" class="button hvr-radial-out">valider</button>
+    </div>
+    
+    <div id="info">
+        <div id="vieDiv">
+    
+        </div>  
+    
+        <div id="missDiv">
+    
+        </div>
+    </div>
+    
+    </div>
+        
+    <div id="fin">
+        <div id="resultatDiv">
+    
+        </div>
+    
+        <button onclick="reset()" class="button hvr-radial-out">reset</button>
+    
+        <a href="main.html" class="button hvr-radial-out">Selection nb de joueur</a>
+    </div>
+    
+
+
+    <script src="2player.js"></script>
+
+</body>
+</html>
