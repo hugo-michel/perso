@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100dvh;
+    flex-direction: column;
+}
+
+
+#container {
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 500px;
+    gap: 5%;
+    background-color: black;
+    border: solid 20px;
+
+}
+
+.cell {
+    width: 30%;
+    height: 30%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    /* outline: solid;
+    outline-width: 30px;
+    outline-color: aquamarine; */
+
+}
+
+#joueur {
+    font-size: 30px;
+}
+
+button {
+    width : 100px;
+    height: 30px;
+}
